@@ -5,15 +5,15 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>home_assistant_graphql</RootNamespace>
+    <UserSecretsId>b75fc24a-89bd-48ce-a614-8ec2874fadd1</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HotChocolate.AspNetCore" Version="13.8.1" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="15.0.3" />
+    <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.5.5" />
+    <PackageReference Include="HotChocolate.Types" Version="15.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Queries\" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.2" />
   </ItemGroup>
 
 </Project>
